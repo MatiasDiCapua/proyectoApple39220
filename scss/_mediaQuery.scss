@@ -1,0 +1,115 @@
+@media (max-width:576px) {
+    .main {
+        .primerTitulo {
+            font-size: 18px;
+        }
+
+        .parrafoOriginal {
+            font-size: 15px;
+        }
+
+        .dispositivos {
+            max-width: 200px;
+            max-height: 200px;
+            margin: auto;
+        }
+
+        .pais {
+            font-size: 15px;
+        }
+
+        .paisPreferido {
+            font-size: 11px;
+        }
+
+        .paises {
+            font-size: 11px;
+        }
+
+        .tituloProductos {
+            font-size: 25px;
+        }
+
+        .contactate {
+            font-size: 18px;
+        }
+
+        .formulario {
+            font-size: 13px;
+
+            .postVenta {
+                font-size: 18px;
+            }
+
+            input {
+                width: 90px;
+                height: 25px;
+            }
+        }
+    }
+    .tz-gallery .lightbox img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .historiaApple {
+        h1 {
+            font-size: 23px;
+        }
+
+        h2 {
+            font-size: 17px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    section {
+        .descProductos {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .ipadPro {
+                max-width: 150px;
+                border-radius: 8px;
+            }
+
+            .iphone14ProMax {
+                max-width: 150px;
+                border-radius: 8px;
+            }
+
+            .watch1 {
+                max-width: 150px;
+                border-radius: 8px;
+            }
+
+            .macB {
+                max-width: 150px;
+                border-radius: 8px;
+            }
+        }
+
+        .videoApple {
+            max-width: 300px;
+            margin: auto;
+        }
+    }
+
+    .footer {
+        .redes {
+            .icon {
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+    }
+}

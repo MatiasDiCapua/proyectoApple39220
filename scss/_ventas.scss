@@ -1,0 +1,56 @@
+.main {
+    .pais {
+        font-style: italic;
+        text-align: left;
+        font-size: 38px;
+        line-height: 25px;
+        letter-spacing: 7px;
+        word-spacing: 15px;
+        padding: 40px;
+        margin: 10px;
+    }
+
+    .paisPreferido {
+        font-style: normal;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 4px;
+        text-decoration: underline;
+        padding: 40px;
+        margin: 10px;
+        color: black
+    }
+
+    .paises {
+        font-style: italic;
+        text-align: center;
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 4px;
+        word-spacing: 7px;
+        padding: 40px;
+        margin: 10px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: stretch;
+        padding: 20px;
+        margin: 20px;
+    }
+}
+
+section {
+    .consultaEquipo {
+        font-style: italic;
+        text-align: left;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 4px;
+        word-spacing: 7px;
+        padding: 40px;
+        margin: 10px
+    }
+}

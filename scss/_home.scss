@@ -1,0 +1,43 @@
+.main {
+    .primerTitulo {
+        font-style: italic;
+        text-align: center;
+        font-size: 40px;
+        line-height: 75px;
+        letter-spacing: 15px;
+        word-spacing: 25px;
+        color: rgb(26, 44, 44);
+        padding: 50px;
+        border: 2px inset lightgrey;
+        margin: 5px 8px 5px 8px;
+    }
+
+    .parrafoOriginal {
+        font-weight: bolder;
+        font-style: italic;
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: 4px;
+        word-spacing: 4px;
+        color: black;
+        padding: 60px;
+        margin: 5px 8px 5px 8px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        img {
+            margin-right: 10px;
+            margin-top: 10px;
+            display: flex;
+            flex-flow: wrap;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
