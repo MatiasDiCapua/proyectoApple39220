@@ -1,35 +1,26 @@
 .ipadPro{
-    margin: 40px;
-    padding: 12px;
-    background-color: rgba(133, 133, 133, 0.208);
+@include imagenes()
 }
 .ipadPro:hover{
     transform: scale(1.3);
     transition-duration: 1.5s
 }
 .iphone14ProMax{
-    margin: 40px;
-    padding: 12px;
-    background-color: rgba(133, 133, 133, 0.208);
+@include imagenes()
 }
 .iphone14ProMax:hover{
     transform: scale(1.3);
     transition-duration: 1.5s
 }
 .watch1{
-    margin: 40px;
-    padding: 12px;
-    background-color: rgba(133, 133, 133, 0.208);
+@include imagenes()
 }
 .watch1:hover{
     transform: scale(1.3);
     transition-duration: 1.5s
 }
 .macB{
-    padding: 12px;
-    margin: 30px;
-    background-color: rgba(133, 133, 133, 0.208);
-    max-width: 100%;
+@include imagenes()
 }
 .macB:hover{
     transform: scale(1.3);

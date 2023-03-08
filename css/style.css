@@ -281,10 +281,9 @@ article.card {
 }
 
 .macB {
+  margin: 40px;
   padding: 12px;
-  margin: 30px;
   background-color: rgba(133, 133, 133, 0.208);
-  max-width: 100%;
 }
 
 .macB:hover {
