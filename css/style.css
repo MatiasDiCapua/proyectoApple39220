@@ -491,12 +491,12 @@ footer {
     max-height: 40px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .main .primerTitulo {
     font-size: 30px;
   }
   .main .parrafoOriginal {
-    font-size: 25px;
+    font-size: 20px;
   }
   .main .dispositivos {
     max-width: 300px;
@@ -573,12 +573,12 @@ footer {
     max-height: 100px;
   }
 }
-@media (max-width: 992px) {
+@media (min-width: 1200px) {
   .main .primerTitulo {
     font-size: 23px;
   }
   .main .parrafoOriginal {
-    font-size: 19px;
+    font-size: 25px;
   }
   .main .dispositivos {
     max-width: 250px;

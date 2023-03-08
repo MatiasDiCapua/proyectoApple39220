@@ -114,14 +114,14 @@
     }
 }
 
-@media (min-width:1200px) {
+@media (min-width:992px) {
     .main {
         .primerTitulo {
             font-size: 30px;
         }
 
         .parrafoOriginal {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .dispositivos {
@@ -230,14 +230,14 @@
     }
 }
 
-@media (max-width:992px) {
+@media (min-width:1200px) {
     .main {
         .primerTitulo {
             font-size: 23px;
         }
 
         .parrafoOriginal {
-            font-size: 19px;
+            font-size: 25px;
         }
 
         .dispositivos {
