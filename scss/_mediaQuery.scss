@@ -11,6 +11,9 @@
         .dispositivos {
             max-width: 200px;
             max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
             margin: auto;
         }
 

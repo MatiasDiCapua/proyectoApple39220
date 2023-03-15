@@ -54,6 +54,15 @@ header {
   flex-direction: row;
   align-items: center;
 }
+.main .row img {
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 body {
   background-image: url(../img/imagen-para-fondo-blanco.jpg);
@@ -410,9 +419,6 @@ footer {
   .main .dispositivos {
     max-width: 200px;
     max-height: 200px;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
     margin: auto;
   }
   .main .pais {
