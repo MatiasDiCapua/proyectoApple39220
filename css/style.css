@@ -28,20 +28,18 @@ header {
 .main .primerTitulo {
   font-style: italic;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 75px;
   letter-spacing: 15px;
   word-spacing: 25px;
   color: rgb(26, 44, 44);
-  padding: 50px;
-  border: 2px inset lightgrey;
-  margin: 5px 8px 5px 8px;
+  padding: 40px;
 }
 .main .parrafoOriginal {
   font-weight: bolder;
   font-style: italic;
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 40px;
   letter-spacing: 4px;
   word-spacing: 4px;
@@ -53,6 +51,12 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.main .dispositivos {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
 }
 
 body {
@@ -66,7 +70,7 @@ body {
 .historiaApple h1 {
   font-style: oblique;
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 25px;
   letter-spacing: 10px;
   word-spacing: 15px;
@@ -100,7 +104,7 @@ body {
 .container.gallery-container {
   background-color: #c3c3c3;
   color: #35373a;
-  min-height: 100vh;
+  min-height: 80vh;
   border-radius: 20px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
 }
@@ -114,7 +118,7 @@ body {
 
 .gallery-container p.page-description {
   text-align: center;
-  max-width: 800px;
+  max-width: 600px;
   margin: 25px auto;
   color: #888;
   font-size: 18px;
@@ -143,8 +147,8 @@ body {
 }
 
 section .videoApple {
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 40px;
+  margin-left: 1.3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: end;
@@ -400,7 +404,7 @@ footer {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(252, 252, 255) 0%, rgb(126, 125, 144) 48%, rgb(219, 219, 226) 100%, rgb(0, 212, 255) 100%);
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .main .primerTitulo {
     font-size: 18px;
   }
@@ -453,7 +457,7 @@ footer {
     margin-top: 20px;
   }
   .historiaApple p {
-    font-size: 20px;
+    font-size: 18px;
   }
   section .descProductos h2 {
     font-size: 20px;
@@ -480,15 +484,16 @@ footer {
   section .videoApple {
     max-width: 300px;
     margin: auto;
+    margin-top: 2rem;
   }
   .footer .redes .icon {
     max-width: 40px;
     max-height: 40px;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
   .main .primerTitulo {
-    font-size: 30px;
+    font-size: 25px;
   }
   .main .parrafoOriginal {
     font-size: 20px;
@@ -565,13 +570,14 @@ footer {
   section .videoApple {
     max-width: 400px;
     margin: auto;
+    margin-top: 2rem;
   }
   .footer .redes .icon {
     max-width: 100px;
     max-height: 100px;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .main .primerTitulo {
     font-size: 23px;
   }
@@ -616,7 +622,7 @@ footer {
     height: 175px;
   }
   .historiaApple h1 {
-    font-size: 23px;
+    font-size: 30px;
   }
   .historiaApple h2 {
     font-size: 23px;
@@ -650,6 +656,7 @@ footer {
   section .videoApple {
     max-width: 350px;
     margin: auto;
+    margin-top: 2rem;
   }
   .footer .redes .icon {
     max-width: 60px;

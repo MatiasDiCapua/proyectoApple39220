@@ -1,4 +1,4 @@
-@media (max-width:576px) {
+@media screen and (max-width:576px) {
     .main {
         .primerTitulo {
             font-size: 18px;
@@ -67,7 +67,7 @@
         }
 
         p {
-            font-size: 20px;
+            font-size: 18px;
         }
     }
 
@@ -105,6 +105,7 @@
         .videoApple {
             max-width: 300px;
             margin: auto;
+            margin-top: 2rem;
         }
     }
 
@@ -118,14 +119,14 @@
     }
 }
 
-@media (min-width:992px) {
+@media screen and (min-width:992px) {
     .main {
         .primerTitulo {
-            font-size: 30px;
+            font-size: 25px;
         }
 
         .parrafoOriginal {
-            font-size: 20px;
+            font-size:20px;
         }
 
         .dispositivos {
@@ -224,6 +225,7 @@
         .videoApple {
             max-width: 400px;
             margin: auto;
+            margin-top: 2rem;
         }
     }
 
@@ -237,7 +239,7 @@
     }
 }
 
-@media (min-width:1200px) {
+@media screen and (min-width:1200px) {
     .main {
         .primerTitulo {
             font-size: 23px;
@@ -296,7 +298,7 @@
 
     .historiaApple {
         h1 {
-            font-size: 23px;
+            font-size: 30px;
         }
 
         h2 {
@@ -343,6 +345,7 @@
         .videoApple {
             max-width: 350px;
             margin: auto;
+            margin-top: 2rem;
         }
     }
 
