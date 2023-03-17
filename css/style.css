@@ -431,6 +431,7 @@ footer {
     font-size: 18px;
   }
   .main .formulario {
+    padding: 10px;
     font-size: 13px;
   }
   .main .formulario .postVenta {
@@ -495,6 +496,9 @@ footer {
   .main .dispositivos {
     max-width: 300px;
     max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     margin: auto;
   }
   .main .pais {
@@ -575,8 +579,11 @@ footer {
     font-size: 25px;
   }
   .main .dispositivos {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 700px;
+    max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     margin: auto;
   }
   .main .pais {
