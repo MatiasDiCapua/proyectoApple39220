@@ -28,24 +28,24 @@ header {
 .main .primerTitulo {
   font-style: italic;
   text-align: center;
-  font-size: 30px;
-  line-height: 75px;
-  letter-spacing: 15px;
-  word-spacing: 25px;
+  font-size: 1.875rem;
+  line-height: 4.688rem;
+  letter-spacing: 0.938rem;
+  word-spacing: 1.563rem;
   color: rgb(26, 44, 44);
-  padding: 40px;
+  padding: 2.5rem;
 }
 .main .parrafoOriginal {
   font-weight: bolder;
   font-style: italic;
   text-align: center;
-  font-size: 22px;
-  line-height: 40px;
-  letter-spacing: 4px;
-  word-spacing: 4px;
+  font-size: 1.375rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.25rem;
+  word-spacing: 0.25rem;
   color: black;
-  padding: 60px;
-  margin: 5px 8px 5px 8px;
+  padding: 3.75rem;
+  margin: 0.313rem 0.5rem 0.313rem 0.5rem;
 }
 .main .row {
   display: flex;
@@ -158,7 +158,7 @@ section .videoApple {
 .main .tituloProductos {
   font-style: oblique;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   line-height: 25px;
   letter-spacing: 10px;
   word-spacing: 15px;
@@ -507,16 +507,16 @@ footer {
     margin: auto;
   }
   .main .pais {
-    font-size: 25px;
+    font-size: 20px;
   }
   .main .paisPreferido {
-    font-size: 23px;
+    font-size: 18px;
   }
   .main .paises {
     font-size: 23px;
   }
   .main .tituloProductos {
-    font-size: 33px;
+    font-size: 25px;
   }
   .main .contactate {
     font-size: 29px;
@@ -546,10 +546,10 @@ footer {
     font-size: 25px;
   }
   section .descProductos h2 {
-    font-size: 32px;
+    font-size: 20px;
   }
   section .descProductos p {
-    font-size: 29px;
+    font-size: 19px;
   }
   section .descProductos .ipadPro {
     max-width: 300px;
@@ -585,7 +585,7 @@ footer {
     font-size: 25px;
   }
   .main .dispositivos {
-    max-width: 700px;
+    max-width: 600px;
     max-height: 500px;
     display: flex;
     flex-direction: column;
@@ -632,10 +632,10 @@ footer {
     font-size: 25px;
   }
   section .descProductos h2 {
-    font-size: 24px;
+    font-size: 23px;
   }
   section .descProductos p {
-    font-size: 23px;
+    font-size: 20px;
   }
   section .descProductos .ipadPro {
     max-width: 200px;
