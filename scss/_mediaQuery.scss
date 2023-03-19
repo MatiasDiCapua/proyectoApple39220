@@ -1,4 +1,4 @@
-@media screen and (max-width:576px) {
+@media screen and (min-width:576px) {
     .main {
         .primerTitulo {
             font-size: 18px;
@@ -18,15 +18,15 @@
         }
 
         .pais {
-            font-size: 15px;
+            font-size: 18px;
         }
 
         .paisPreferido {
-            font-size: 11px;
+            font-size: 16px;
         }
 
         .paises {
-            font-size: 11px;
+            font-size: 16px;
         }
 
         .tituloProductos {
@@ -39,7 +39,7 @@
 
         .formulario {
             padding: 10px;
-            font-size: 13px;
+            font-size: 18px;
 
             .postVenta {
                 font-size: 18px;
@@ -84,21 +84,25 @@
             .ipadPro {
                 max-width: 150px;
                 border-radius: 8px;
+                padding: 4px;
             }
 
             .iphone14ProMax {
                 max-width: 150px;
                 border-radius: 8px;
+                padding: 4px;
             }
 
             .watch1 {
                 max-width: 150px;
                 border-radius: 8px;
+                padding: 4px;
             }
 
             .macB {
                 max-width: 150px;
                 border-radius: 8px;
+                padding: 4px;
             }
         }
 
@@ -119,242 +123,3 @@
     }
 }
 
-@media screen and (min-width:992px) {
-    .main {
-        .primerTitulo {
-            font-size: 25px;
-        }
-
-        .parrafoOriginal {
-            font-size:20px;
-        }
-
-        .dispositivos {
-            max-width: 300px;
-            max-height: 300px;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            margin: auto;
-        }
-
-        .pais {
-            font-size: 20px;
-        }
-
-        .paisPreferido {
-            font-size: 18px;
-        }
-
-        .paises {
-            font-size: 23px;
-        }
-
-        .tituloProductos {
-            font-size: 25px;
-        }
-
-        .contactate {
-            font-size: 29px;
-        }
-
-        .formulario {
-            font-size: 25px;
-
-            .postVenta {
-                font-size: 29px;
-            }
-
-            input {
-                width: 150px;
-                height: 60px;
-            }
-        }
-    }
-    .tz-gallery .lightbox img{
-        width: 300px;
-        height: 200px;
-    }
-
-    .historiaApple {
-        h1 {
-            font-size: 30px;
-        }
-
-        h2 {
-            font-size: 30px;
-            margin-top: 20px;
-        }
-
-        p {
-            font-size: 25px;
-        }
-    }
-
-    section {
-        .descProductos {
-            h2 {
-                font-size: 20px;
-            }
-
-            p {
-                font-size: 19px;
-            }
-
-            .ipadPro {
-                max-width: 300px;
-                border-radius: 8px;
-            }
-
-            .iphone14ProMax {
-                max-width: 300px;
-                border-radius: 8px;
-            }
-
-            .watch1 {
-                max-width: 300px;
-                border-radius: 8px;
-            }
-
-            .macB {
-                max-width: 300px;
-                border-radius: 8px;
-            }
-        }
-
-        .videoApple {
-            max-width: 400px;
-            margin: auto;
-            margin-top: 2rem;
-        }
-    }
-
-    .footer {
-        .redes {
-            .icon {
-                max-width: 100px;
-                max-height: 100px;
-            }
-        }
-    }
-}
-
-@media screen and (min-width:1200px) {
-    .main {
-        .primerTitulo {
-            font-size: 23px;
-        }
-
-        .parrafoOriginal {
-            font-size: 25px;
-        }
-
-        .dispositivos {
-            max-width: 600px;
-            max-height: 500px;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            margin: auto;
-        }
-
-        .pais {
-            font-size: 19px;
-        }
-
-        .paisPreferido {
-            font-size: 15px;
-        }
-
-        .paises {
-            font-size: 15px;
-        }
-
-        .tituloProductos {
-            font-size: 29px;
-        }
-
-        .contactate {
-            font-size: 23px;
-        }
-
-        .formulario {
-            font-size: 18px;
-
-            .postVenta {
-                font-size: 24px;
-            }
-
-            input {
-                width: 110px;
-                height: 40px;
-            }
-        }
-    }
-    .tz-gallery .lightbox img{
-        width: 250px;
-        height: 175px;
-    }
-
-    .historiaApple {
-        h1 {
-            font-size: 30px;
-        }
-
-        h2 {
-            font-size: 23px;
-            margin-top: 20px;
-        }
-
-        p {
-            font-size: 25px;
-        }
-    }
-
-    section {
-        .descProductos {
-            h2 {
-                font-size: 23px;
-            }
-
-            p {
-                font-size: 20px;
-            }
-
-            .ipadPro {
-                max-width: 200px;
-                border-radius: 8px;
-            }
-
-            .iphone14ProMax {
-                max-width: 200px;
-                border-radius: 8px;
-            }
-
-            .watch1 {
-                max-width: 200px;
-                border-radius: 8px;
-            }
-
-            .macB {
-                max-width: 200px;
-                border-radius: 8px;
-            }
-        }
-
-        .videoApple {
-            max-width: 350px;
-            margin: auto;
-            margin-top: 2rem;
-        }
-    }
-
-    .footer {
-        .redes {
-            .icon {
-                max-width: 60px;
-                max-height: 60px;
-            }
-        }
-    }
-}
