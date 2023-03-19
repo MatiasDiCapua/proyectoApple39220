@@ -1,7 +1,9 @@
 section {
     .videoApple {
-        margin-top: 40px;
         margin-left: 1.3rem;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 2rem;
         display: flex;
         flex-direction: row;
         flex-wrap: end;

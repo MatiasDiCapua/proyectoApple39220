@@ -11,3 +11,11 @@ footer {
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(252, 252, 255, 1) 0%, rgba(126, 125, 144, 1) 48%, rgba(219, 219, 226, 1) 100%, rgba(0, 212, 255, 1) 100%);
 }
+.footer {
+    .redes {
+        .icon {
+            max-width: 40px;
+            max-height: 40px;
+        }
+    }
+}

@@ -2,7 +2,7 @@
     .primerTitulo {
         font-style: italic;
         text-align: center;
-        font-size: 1.875rem;
+        font-size: 18px;
         line-height: 4.688rem;
         letter-spacing: 0.938rem;
         word-spacing: 1.563rem;
@@ -15,7 +15,7 @@
         font-weight: bolder;
         font-style: italic;
         text-align: center;
-        font-size: 1.375rem;
+        font-size: 15px;
         line-height: 2.5rem;
         letter-spacing: 0.25rem;
         word-spacing: 0.25rem;
@@ -30,6 +30,8 @@
         align-items: center;
     }
     .dispositivos {
+        max-width: 200px;
+        max-height: 200px;
         display: flex;
         flex-direction: column;
         align-content: center;

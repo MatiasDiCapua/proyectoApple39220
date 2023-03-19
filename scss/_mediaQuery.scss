@@ -1,7 +1,383 @@
-@media screen and (min-width:350px) {
+@media (min-width:576px) {
     .main {
         .primerTitulo {
             font-size: 18px;
+        }
+
+        .parrafoOriginal {
+            font-size: 15px;
+        }
+
+        .dispositivos {
+            max-width: 200px;
+            max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: auto;
+        }
+
+        .pais {
+            font-size: 18px;
+        }
+
+        .paisPreferido {
+            font-size: 16px;
+        }
+
+        .paises {
+            font-size: 16px;
+        }
+
+        .tituloProductos {
+            font-size: 25px;
+        }
+
+        .contactate {
+            font-size: 18px;
+        }
+
+        .formulario {
+            padding: 10px;
+            font-size: 18px;
+
+            .postVenta {
+                font-size: 18px;
+            }
+
+            input {
+                width: 90px;
+                height: 25px;
+            }
+            .enviar {
+                margin: auto;
+                height: 60px;
+            }
+        }
+    }
+    .tz-gallery .lightbox img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .historiaApple {
+        h1 {
+            font-size: 23px;
+        }
+
+        h2 {
+            font-size: 17px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    section {
+        .descProductos {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .ipadPro {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .iphone14ProMax {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .watch1 {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .macB {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+        }
+
+        .videoApple {
+            max-width: 300px;
+            margin: auto;
+            margin-top: 2rem;
+        }
+    }
+
+    .footer {
+        .redes {
+            .icon {
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+    }
+}
+@media (min-width:768px) {
+    .main {
+        .primerTitulo {
+            font-size: 30px;
+        }
+
+        .parrafoOriginal {
+            font-size: 15px;
+        }
+
+        .dispositivos {
+            max-width: 200px;
+            max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: auto;
+        }
+
+        .pais {
+            font-size: 18px;
+        }
+
+        .paisPreferido {
+            font-size: 16px;
+        }
+
+        .paises {
+            font-size: 16px;
+        }
+
+        .tituloProductos {
+            font-size: 25px;
+        }
+
+        .contactate {
+            font-size: 18px;
+        }
+
+        .formulario {
+            padding: 10px;
+            font-size: 18px;
+
+            .postVenta {
+                font-size: 18px;
+            }
+
+            input {
+                width: 90px;
+                height: 25px;
+            }
+        }
+    }
+    .tz-gallery .lightbox img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .historiaApple {
+        h1 {
+            font-size: 23px;
+        }
+
+        h2 {
+            font-size: 17px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    section {
+        .descProductos {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .ipadPro {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .iphone14ProMax {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .watch1 {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .macB {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+        }
+
+        .videoApple {
+            max-width: 300px;
+            margin: auto;
+            margin-top: 2rem;
+        }
+    }
+
+    .footer {
+        .redes {
+            .icon {
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+    }
+}
+@media (min-width:992px) {
+    .main {
+        .primerTitulo {
+            font-size: 40px;
+        }
+
+        .parrafoOriginal {
+            font-size: 15px;
+        }
+
+        .dispositivos {
+            max-width: 200px;
+            max-height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            margin: auto;
+        }
+
+        .pais {
+            font-size: 18px;
+        }
+
+        .paisPreferido {
+            font-size: 16px;
+        }
+
+        .paises {
+            font-size: 16px;
+        }
+
+        .tituloProductos {
+            font-size: 25px;
+        }
+
+        .contactate {
+            font-size: 18px;
+        }
+
+        .formulario {
+            padding: 10px;
+            font-size: 18px;
+
+            .postVenta {
+                font-size: 18px;
+            }
+
+            input {
+                width: 90px;
+                height: 25px;
+            }
+        }
+    }
+    .tz-gallery .lightbox img{
+        width: 200px;
+        height: 150px;
+    }
+
+    .historiaApple {
+        h1 {
+            font-size: 23px;
+        }
+
+        h2 {
+            font-size: 17px;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
+
+    section {
+        .descProductos {
+            h2 {
+                font-size: 20px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            .ipadPro {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .iphone14ProMax {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .watch1 {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+
+            .macB {
+                max-width: 150px;
+                border-radius: 8px;
+                padding: 4px;
+            }
+        }
+
+        .videoApple {
+            max-width: 300px;
+            margin: auto;
+            margin-top: 2rem;
+        }
+    }
+
+    .footer {
+        .redes {
+            .icon {
+                max-width: 40px;
+                max-height: 40px;
+            }
+        }
+    }
+}
+@media (min-width:1200px) {
+    .main {
+        .primerTitulo {
+            font-size: 50px;
         }
 
         .parrafoOriginal {
