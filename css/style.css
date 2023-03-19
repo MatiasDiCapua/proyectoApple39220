@@ -404,7 +404,7 @@ footer {
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(252, 252, 255) 0%, rgb(126, 125, 144) 48%, rgb(219, 219, 226) 100%, rgb(0, 212, 255) 100%);
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 350px) {
   .main .primerTitulo {
     font-size: 18px;
   }
